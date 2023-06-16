@@ -3,3 +3,7 @@ div{
     width: auto;
     height: 250px;
 }
+h1{
+    background-color: aqua;
+    color: black;
+}
