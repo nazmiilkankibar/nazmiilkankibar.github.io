@@ -1,9 +1,11 @@
 div{
-    background-color:darkgray;
-    width: auto;
-    height: 250px;
+    background-color:rgb(244,246,248);
+    /*width: auto;
+    height: 100px;*/
 }
-h1{
-    background-color: aqua;
-    color: black;
+.welcome{
+    font-family: 'Best Signature Font', sans-serif;
+    font-size: 50;
+    margin-left: 75px;
+    padding-top: 25px;
 }
