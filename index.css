@@ -17,7 +17,7 @@
 .navbar ul li {
     display:inline-flex;
     /* padding-right: 30px; */
-    margin-right: 30px;
+    margin-right: 50px;
     font-size: 20px;
     
     text-align: center;
@@ -30,7 +30,13 @@
     margin-top: 50px;
 }
 .navbar a{
-    
+    opacity: 0.7;
+    transform: scale(1);
+    transition: all 0.4s;
+}
+.navbar a:hover{
+    opacity: 1;
+    transform: scale(1.5);
 }
 body{
     color: gray;
@@ -46,14 +52,45 @@ body{
     font-weight: bold;
     font-size: 75px;
 }
-.content{
-    text-align: center;
+.home{
+    width: 75%;
+    height: auto;
+    margin-top: 25px;
+    margin: auto;
+    /* text-align: center; */
     padding: 25px;
+    z-index: -1;
+    color:  black;
+    font-family: 'Brush Script MT', cursive;
+}
+.home div {
+    display: inline-block;
+    text-align: left;
+}
+.mainGif{
+    margin-left: 20px;
+    margin-top: 20px;
+    z-index: -1;
 }
 .homeBG{
     position: absolute;
-    height: 50%;
+    height: 55%;
     width: 75%;
     z-index: -1;
-    margin-left: -38%;
+}
+.content{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.content ul{
+    margin-left: -42px;
+}
+.content ul li{
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    position: relative;
+    margin-left: -10px;
+    list-style: none;
 }
