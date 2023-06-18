@@ -1,92 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indextest.css">
     <link href="https://fonts.cdnfonts.com/css/best-signature-font" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/Icon.png" sizes="16x16">
-
-    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
-<title>Nazmi İlkan Kibar Porfolio</title>                
+    <title>Document</title>
 </head>
-<body id="home">
-<div class="navbar">
-    <h1 class="welcome">Welcome</h1>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="test">Experience</a></li>
-        <li><a href="test">Skills</a></li>
-        <li><a href="test">Projects</a></li>
-        <li><a href="test">Published Games</a></li>
-        <li><a href="test">Interactive Portfolio</a></li>
-    </ul>
-</div>
-<div class="home">
-    <img class="homeBG" src="img/Top.png" alt=""->
-    <div>
-
-        <img class="profilePhoto" src="img/profil.jpg" alt="" border="7px">
-        <br>
+<body>
+    <div class="navbar"> 
+        <div id="welcomeDiv">
+            <h1>Welcome</h1>
+        </div>
+        <div id="buttonsDiv">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Education</a>
+            <a href="#about">Experience</a>
+            <a href="#about">Skills</a>
+            <a href="#about">Projects</a>
+        </div>
     </div>
     <div class="content">
-        <h1>Hello!</h1>
-        <h3 style="font-size: 40px;">I'm Nazmi İlkan Kibar</h3>
-        <img class="signature" src="img/Signature.png" alt="">
-        <h4>Game Developer</h4><br>
-        <ul>
-            <li><a href="mailto:nazmiilkankibar@gmail.com" target="_blank"><input type="image" src="img/mail.png" value="submit" width="25px"></a> </li>
-            <li><a href="https://github.com/nazmiilkankibar" target="_blank"><input type="image" src="img/github.png" value="submit" width="25px"></a></li>
-            <li><a href="https://www.linkedin.com/in/nazmiilkankibar/" target="_blank"><input type="image" src="img/linkedin.png" value="submit" width="25px"></a></li>
-        </ul>
+        <div class="home" id="home">  
+            <!-- <img class="homeBG" src="img/Top.png" alt=""> -->
+            <div class = "profilePhoto"> 
+                <img src="img/profil.jpg" alt="">
+            </div>
+            <div class="helloText">
+                <h1>Hello!</h1><br>
+                <h1>I'm Nazmi İlkan Kibar</h1>
+                <h4>Game Developer</h4><br><br><br><br>
+                <div class = "buttons">
+                    <input type="image" src="img/github.png" value="submit" width="35px">
+                    <input type="image" src="img/mail.png" value="submit" width="35px">
+                    <input type="image" src="img/linkedin.png" value="submit" width="35px">
+                </div>
+            </div>
+            
+        </div>
+        <hr size="5" width="100%" noshade="noshade">
+        <div class="about" id="about">
+            <div class="aboutText">
+                <h1>About Me</h1><br>
+                <p>Hello, I'm Furkan Emiroglu. Welcome to my portfolio page. You can see most of my work here. I'm a passionate game developer who is capable of creating and 
+                    publishing games form scratch in Unity. I can also create shaders, highly interested in render features and creating editor extensions that will make people's 
+                    lives easier. Currently continuing my Master's Degree in Hacettepe University.</p>
+            </div>
+            <div class="aboutGif">
+                <img src="img/mainGif.gif" alt="" width="400px" height="350px">
+            </div>
+        </div>
+        <div class="education">
+            
+        </div>
+        <div class="experience">
+            
+        </div>
+        <div class="skills">
+            
+        </div>
     </div>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<hr size = 7 noshade="noshade" width="80%" >
-<div class="about" id="about">
-    <img class="aboutBG" src="img/Bottom.png" alt="">
-    <div>
-        <h1>About Me</h1>
-        <p>Hello, I'm Nazmi İlkan Kibar. Welcome to my portfolio page. You can see most of my work here. I'm a passionate game developer who is capable of creating and publishing Games
-            form scratch in Unity. I can also create shaders, highly interested in render features and creating editor extensions that will make people's lives easier. Currently
-            continuing my Master'd Degree in Hacettepe University
-        </p>
-        <img class="mainGif" src="img/mainGif.gif" alt="Main Gif">
-        <table>
-            <tr>
-                <td>Birthdate:</td>
-                <td><strong>31/03/1995</strong></td>
-            </tr>
-            <tr>
-                <td>Adress:</td>
-                <td><strong>Sakarya, Turkey</strong></td>
-            </tr>
-            <tr>
-                <td>Languages:</td>
-                <td><strong>Turkish, English</strong></td>
-            </tr>
-        </table>
+    <div class="footer">
+SELAM
     </div>
-</div>
-<br><br><br><br><br><br><br><br><br>
-<hr size = 7 noshade="noshade" width="80%" >
-<div class="education" id="education">
-    <h1>Education</h1>
-    <ul>
-        <li><img src="img/school.png" alt="" height="36px" width="36px"></li>
-        <li><h2>Sakarya University</h2></li>
-        <li>Bachelor's Degree</li>
-        <li><h5>Labour Economics and Industrial Relations</h5></li>
-        <li><strong>2018-2022</strong></li>
-    </ul>
-    <hr size =3 noshade="noshade" width="20%" align="center">
-    <ul>
-        <li><img src="img/school.png" alt="" height="36px" width="36px"></li>
-        <li><h2>Satso Anatolian Commerce Vocational High School</h2></li>
-        <li>High School</li>
-        <li><h5>Information Systems</h5></li>
-        <li><strong>2011-2015</strong></li>
-    </ul>
-</div>
 </body>
 </html>

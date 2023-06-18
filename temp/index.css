@@ -1,0 +1,212 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/**************************************************************************/
+/*        Navbar                                                          */
+/**************************************************************************/
+.navbar{
+    display: inline-block;
+    background-color:#414040;
+    height: 7%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 5px 10px black;
+}
+.welcome{
+    display: inline-block;
+    font-family: 'Best Signature Font', sans-serif;
+    color:  black;
+    font-weight: bold;
+    font-size: 60px;
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+    float: left;
+}
+.navbar ul{
+    list-style: none;
+    font-family: 'Brush Script MT', cursive;
+    display: inline-block;
+    width: 85%;
+    /* position: absolute; */
+    margin-top: 1%;
+    margin-left: -20%;
+}
+.navbar ul li {
+    display:inline-flex;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 2%;
+}
+.navbar ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-style: oblique;
+    font-weight: bold;
+}
+.navbar a{
+    opacity: 0.7;
+    transform: scale(1);
+    transition: all 0.4s;
+}
+.navbar a:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+/**************************************************************************/
+/*        Home                                                            */
+/**************************************************************************/
+.home{
+    position: relative;
+    width: 75.6%;
+    height: auto;
+    color:  black;
+    font-family: 'Brush Script MT', cursive;
+}
+.home div {
+    display: inline-block;
+}
+.profilePhoto{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-color:darkgray;
+    border-style: double;
+    border-radius: 180px;
+}
+.homeBG{
+    position: absolute;
+    height: 60%;
+    width: 75%;
+    z-index: -1;
+}
+/**************************************************************************/
+/*        Content                                                         */
+/**************************************************************************/
+.content{
+    width: 50%;
+    max-width: 1200px;
+}
+.content ul{
+    margin-left: -42px;
+}
+.content ul li{
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    position: relative;
+    margin-left: -10px;
+    list-style: none;
+}
+.signature{
+    position: absolute;
+    height: 125px;
+    width: 200px;
+    margin-left: 300px;
+    margin-top: -60px;
+}
+.downloadCVButton{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 30px;
+    color: green;
+}
+hr{
+    border-radius: 20px;
+    opacity: 0.3;
+}
+/**************************************************************************/
+/*        About                                                           */
+/**************************************************************************/
+.about{
+    text-align: center;
+    width: 75.6%;
+    max-width: 1200px;
+    height: auto;
+    color:  black;
+    font-family: 'Brush Script MT', cursive;
+}
+.aboutBG{
+    position: absolute;
+    height: 600px;
+    width: 75%;
+    z-index: -1;
+}
+.about h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+.about p{
+    position:relative;
+    display: inline-block;
+    height: auto;
+    width: 50%;
+    max-width: 500px;
+    text-align: justify;
+    margin-left: 100px;
+}
+.mainGif{
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    max-width: 445px;
+    height: 25%;
+    max-height: 350px;
+    margin-left: 50px;
+}
+.about table{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+/**************************************************************************/
+/*        Education                                                       */
+/**************************************************************************/
+.education{
+    background-color: rgb(237, 237, 237);
+    position: relative;
+    height: auto;
+    width: 75.6%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: -70px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}
+.education h1{
+    font-size: 50px;
+    text-align: center; 
+    margin-top: 150px;
+}
+.education ul{
+    display: inline-block;
+    list-style: none;
+    width: auto;
+}
+.education li{
+    margin-top: -15px;
+    margin-left: -40px;
+}
+/**************************************************************************/
+/*        Media Query                                                     */
+/**************************************************************************/
+@media screen and (max-width: 480px){
+    .about p{
+width: 100%;
+    }
+    .mainGif{
+width: 100%;
+    }
+}
