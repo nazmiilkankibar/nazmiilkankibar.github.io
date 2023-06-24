@@ -1,0 +1,377 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    /* text-align: center; */
+}
+.wrapper{
+    width: 100%;
+    margin:auto;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background: rgb(46, 46, 46);
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: stretch;
+    color: rgb(187, 187, 187);
+}
+.welcome{
+    width: 25%;
+    font-size: 30px;
+    flex-grow: 1;
+    text-align: center;
+}
+.links{
+    display: flex;
+    width: 75%;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    color: rgb(187, 187, 187);
+    height: 100%;
+    margin: 0 20px;
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 4%;
+    transform: scale(1);
+    transition: all 0.2s;
+}
+.links a:hover{
+    transform: scale(1.5);
+}
+section{
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.content{
+    display: flex;
+    width: 90%;
+    height: auto;
+    /* flex-grow: 1; */
+    margin: 5px 0 5px 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+/******************************************************/
+/*                    Section 1                       */
+/******************************************************/
+.hello{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 5px 0 5px 0;
+}
+.photo{
+    display: flex;
+    width: 25%;
+    float: left;
+    flex-grow: 1;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.photo img{
+    width: 100%;
+    border-radius: 180px;
+    border: 5px solid black;
+}
+.name{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    font-size: 20px;
+    flex-grow: 2;
+    flex-shrink: 1;
+    align-content: stretch;
+    flex-direction: column;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+.name p{
+    width: 100%;
+    padding-top: 1%;
+    padding-left: 10%;
+    font-size: 40px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+.bottom a{
+    
+    padding-left: 2%;
+}
+.bottom input{
+    width: 35px;
+}
+/******************************************************/
+/*                    Section 2                       */
+/******************************************************/
+.aboutContent{
+    width: 100%;
+    display: flex;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    margin-right: 5%;
+    height: auto;
+    /* align-content: stretch; */
+}
+.about h1{
+    font-size: 30px;
+    text-align: justify;
+}
+.about p{
+    font-size: 20px;
+    text-align: justify;
+}
+.aboutGif{
+    margin-left: 5%;
+    margin-top: 10%;
+    /* display: flex; */
+    width: 35%;
+}
+.aboutGif img{
+    width: 100%;
+    border-radius: 90px;
+}
+/******************************************************/
+/*                    Section 3                       */
+/******************************************************/
+.education{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+.education h1{
+    width: 100%;
+    font-size: 40px;
+}
+.education img{
+    width: 50px;
+}
+.education p{
+    font-size: 30px;
+}
+.education div{
+    width: 100%;
+    margin: 5% 0;
+}
+/******************************************************/
+/*                    Section 4                       */
+/******************************************************/
+.experience{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+.experience h1{
+    width: 100%;
+    font-size: 40px;
+}
+.experience img{
+    width: 50px;
+}
+.experience div{
+    width: 100%;
+    margin: 5% 0;
+}
+.experience p{
+    font-size: 30px;
+}
+/******************************************************/
+/*                    Section 5                       */
+/******************************************************/
+.skills{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 5%;
+}
+.skills h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+.languagesTable{
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    width: 40%;
+    margin-right: 5%;
+}
+.languagesTable h1{
+    margin: -2px;
+    border: 2px solid rgb(226, 226, 226);
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    width: 98%;
+    font-size: 40px;
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.languagesTable ul{
+    padding-left: 15%;
+}
+.languagesTable li{
+    margin: 5% 0;
+    font-size: 40px;
+}
+.technologiesTables{
+    border: 2px solid rgb(226, 226, 226);
+    width: 40%;
+    border-radius: 10px;
+}
+.technologiesTables h1{
+    margin: -2px;
+    border: 2px solid rgb(226, 226, 226);
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    width: 98%;
+    font-size: 40px;
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.technologiesTables ul{
+    margin-left: 15%;
+}
+.technologiesTables li{
+    margin: 5% 0;
+    font-size: 40px;
+}
+/******************************************************/
+/*                    Section 6                       */
+/******************************************************/
+footer{
+    width: 100%;
+    height: auto;
+    background: rgb(46, 46, 46);
+    color: rgb(187, 187, 187);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 5%;
+}
+footer h1{
+    width: 100%;
+    text-align: center;
+    padding: 1% 0;
+}
+footer h3{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1%;
+}
+footer input{
+    width: 35px;
+}
+.footerBottom{
+    margin-bottom: 1%;
+}
+@media screen and (max-width:815px) {
+    /******************************************************/
+    /*                    Section 1                       */
+    /******************************************************/
+    .links{
+        display: none;
+    }
+    .hello{
+        flex-direction: column;
+    }
+    .photo{
+        width: 100%;
+    }
+    .photo img{
+        border-radius: 360px;
+    }
+    .name{
+        width: 100%;
+    }
+    .bottom{
+        margin: 0;
+        margin-top: 5%;
+        align-content: center;
+        justify-content: center;
+    }
+    .bottom input{
+        width: 70px;
+    }
+    /******************************************************/
+    /*                    Section 2                       */
+    /******************************************************/
+    .aboutContent{
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    .about{
+        width: 100%;
+    }
+    .aboutGif{
+        width: 100%;
+        margin: 0;
+        margin-top: 5%;
+    }
+    .about h1{
+        text-align: center;
+        
+    }
+}
+@media screen and (max-width:588px) {
+    .name p{
+        font-size: 30px;
+    }
+    .bottom input{
+        width: 50px;
+    }
+}
+@media screen and (max-width:428px) {
+    .name p{
+        font-size: 25px;
+    }
+    .bottom input{
+        width: 50px;
+    }
+}

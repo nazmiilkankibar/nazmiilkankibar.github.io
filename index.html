@@ -3,69 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.cdnfonts.com/css/best-signature-font" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="img/Icon.png" sizes="16x16">
     <title>My Portfolio</title>
 </head>
 <body>
-    <div class="navbar"> 
-        <div id="welcomeDiv">
-            <h1>Welcome</h1>
-        </div>
-        <div id="buttonsDiv">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Education</a>
-            <a href="#about">Experience</a>
-            <a href="#about">Skills</a>
-            <a href="#about">Projects</a>
-        </div>
-    </div>
-    <div class="content">
-        <div class="home" id="home">  
-            <!-- <img class="homeBG" src="img/Top.png" alt=""> -->
-            <div class = "profilePhoto"> 
-                <img src="img/profil.jpg" alt="">
-            </div>
-            <div class="helloText">
-                <h1>Hello!</h1><br>
-                <h1>I'm Nazmi İlkan Kibar</h1>
-                <h4>Game Developer</h4><br><br><br><br>
-                <div class = "buttons">
-                    <a href="mailto:nazmiilkankibar@gmail.com" target="_blank"><input type="image" src="img/mail.png" value="submit" width="35px"></a>
-                    <a href="https://github.com/nazmiilkankibar" target="_blank"><input type="image" src="img/github.png" value="submit" width="35px"></a>
-                    <a href="https://www.linkedin.com/in/nazmiilkankibar/" target="_blank"><input type="image" src="img/linkedin.png" value="submit" width="35px"></a>
+    <div class="wrapper">
+        <div class="container">
+            <header>
+                <div class="welcome">
+                    <h1>Welcome</h1>
                 </div>
-            </div>
-            
-        </div>
-        <hr size="5" width="100%" noshade="noshade">
-        <div class="about" id="about">
-            <div class="aboutText">
-                <h1>About Me</h1><br>
-                <p>Hello, I'm Nazmi İlkan Kibar. Welcome to my portfolio page. You can see most of my work here. I'm a passionate game developer who is capable of creating and publishing Games
-                    form scratch in Unity. I developed games for android devices using Unity game engine. </p><br> 
-                    <p>I took part in 3 games released so far. I also have games that I have developed 
-                    individually but not published. Apart from these, I also have projects where I work on the mechanics of strategy and FPS games. I graduated from Sakarya University, 
-                    Department of Labor Economics and Industrial Relations in 2022.</p>
-            </div>
-            <div class="aboutGif">
-                <img src="img/mainGif.gif" alt="" width="400px" height="350px">
-            </div>
-        </div>
-        <div class="education">
-            
-        </div>
-        <div class="experience">
-            
-        </div>
-        <div class="skills">
-            
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="">Projects</a>
+                </div>
+            </header>
+            <section>
+                <div class="content">
+                    <div class="hello">
+                        <div class="photo">
+                            <img src="img/profil1.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            <p>Hello!</p>
+                            <p>I'm Nazmi İlkan Kibar</p>
+                            <p>Game Developer</p>
+                            <div class="bottom">
+                                <a href="mailto:nazmiilkankibar@gmail.com" target="_blank"><input type="image" src="img/mail.png" value="submit" ></a>
+                                <a href="https://github.com/nazmiilkankibar" target="_blank"><input type="image" src="img/github.png" value="submit" ></a>
+                                <a href="https://www.linkedin.com/in/nazmiilkankibar/" target="_blank"><input type="image" src="img/linkedin.png" value="submit" ></a>
+                                <a href="src/CV-Nazmi İlkan Kibar.pdf" target="_blank"><input type="image" src="img/download-pdf.png" value="submit" ></a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="content">
+                    <div class="aboutContent" id="about">
+                        <div class="about">
+                            <h1>About</h1><br>
+                            <p>
+                                Hello, I'm Nazmi İlkan Kibar. Welcome to my portfolio page. You can see most of my work here. I'm a passionate game developer who is capable of creating and publishing Games
+                        form scratch in Unity. I developed games for android devices using Unity game engine.
+                            </p>
+                            <br>
+                            <p>
+                                I took part in 3 games released so far. I also have games that I have developed 
+                        individually but not published. Apart from these, I also have projects where I work on the mechanics of strategy and FPS games. I graduated from Sakarya University, 
+                        Department of Labor Economics and Industrial Relations in 2022.
+                            </p>
+                        </div>
+                        <div class="aboutGif">
+                            <img src="img/mainGif.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="content" id="education">
+                    <div class="education">
+                        <h1>Education</h1><br>
+                        <div>
+                            <img src="img/school.png" alt="">
+                            <p>Sakarya University</p>
+                            <p>Labour Economics and Industrial Releations</p>
+                            <p><strong>2018-2022</strong></p>
+                        </div>
+                        <br>
+                        <hr size="2" width="100%">
+                        <br>
+                        <div>
+                            <img src="img/school.png" alt="">
+                            <p>Satso ATML</p>
+                            <p>Information Systems</p>
+                            <p><strong>2009-2013</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr size="5" width="100%" noshade="noshade">
+                <br>
+                <div class="content" id="experience">
+                    <div class="experience">
+                        <h1>Experience</h1>
+                        <div>
+                            <img src="img/experience.png" alt="">
+                            <p>Avenpi Game Studio</p>
+                            <p>Game Developer</p>
+                            <p><strong>June 2022 - October 2022</strong></p>
+                        </div>
+                        <br>
+                        <hr size="2" width="100%">
+                        <br>
+                        <div>
+                            <img src="img/experience.png" alt="">
+                            <p>Avenpi Game Studio</p>
+                            <p>Game Developer Intern</p>
+                            <p><strong>March 2022 - June 2022</strong></p>
+                        </div>
+                        <br>
+                        <hr size="2" width="100%">
+                        <br>
+                        <div>
+                            <img src="img/experience.png" alt="">
+                            <p>KFS Küçükçalık</p>
+                            <p>Human Resources Intern</p>
+                            <p><strong>January 2022 - March 2022</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content" id="skills">
+                    <div class="skills">
+                        <h2>Skills</h2><br>
+                        <div class = "languagesTable">
+                            <div>
+                                <h1>Languages</h1>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>C#</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Phyton</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "technologiesTables">
+                            <div>
+                                <h1> Technologies</h1>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>Unity</li>
+                                    <li>Unreal Engine</li>
+                                    <li>Blender</li>
+                                    <li>Github</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <h1>Nazmi İlkan Kibar</h1>
+                <h3>Game Developer</h3>
+                <div class="footerBottom">
+                    <a href="mailto:nazmiilkankibar@gmail.com" target="_blank"><input type="image" src="img/whitemail.png" value="submit" ></a>
+                    <a href="https://github.com/nazmiilkankibar" target="_blank"><input type="image" src="img/whitegithub.png" value="submit" ></a>
+                    <a href="https://www.linkedin.com/in/nazmiilkankibar/" target="_blank"><input type="image" src="img/whitelinkedin.png" value="submit" ></a>
+                    <a href="src/CV-Nazmi İlkan Kibar.pdf" target="_blank"><input type="image" src="img/whitedownloadCV.png" value="submit" ></a>
+                </div>
+            </footer>
         </div>
     </div>
-    <div class="footer">
-SELAM
-    </div>
+    
 </body>
 </html>

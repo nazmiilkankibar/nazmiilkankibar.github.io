@@ -1,0 +1,34 @@
+<table>
+                                <tr>
+                                    <th class="tableHeader">Languages</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>C# <figure class="circle"></figure></li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Phyton</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </td>
+                            </table>
+                        </div>
+                        <div>
+                            <table>
+                                <tr>
+                                    <th>Languages</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>C# <figure class="circle"></figure></li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Phyton</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </td>
+                            </table>
