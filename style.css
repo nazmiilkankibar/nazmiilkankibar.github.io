@@ -84,6 +84,7 @@ section{
     width: 100%;
     height: auto;
     margin: 5px 0 5px 0;
+    margin-left: 10%;
 }
 .photo{
     display: flex;
@@ -142,6 +143,7 @@ section{
     flex-wrap: wrap;
     width: 55%;
     margin-right: 5%;
+    margin-top: 10%;
     height: auto;
     /* align-content: stretch; */
 }
