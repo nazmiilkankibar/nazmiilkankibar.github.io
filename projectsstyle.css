@@ -233,6 +233,19 @@ footer input{
     .mobileProjects{
         display: flex;
     }
+    .content{
+        width: 400px;
+    }
+    .content img{
+        width: 300px;
+    }
+    .content div:first-child{
+    padding-top: 2%;
+    border: 3px solid black;
+    width: 400px;
+    height: 450px;
+    border-radius: 50px;
+}
 }
 @media screen and (max-width:1040px){
     
@@ -252,5 +265,18 @@ footer input{
     }
     .links{
         display: none;
+    }
+    .content img{
+        width: 500px;
+    }
+    .content div:first-child{
+    padding-top: 2%;
+    border: 3px solid black;
+    width: 700px;
+    height: 750px;
+    border-radius: 50px;
+}
+.playstore h2{
+        font-size: 40px;
     }
 }
