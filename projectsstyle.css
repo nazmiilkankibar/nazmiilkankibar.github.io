@@ -56,7 +56,48 @@ header{
 .links a:hover{
     transform: scale(1.5);
 }
-
+.mobileHome{
+    display: none;
+    width: 25%;
+}
+.mobileHome a{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    height: 100%;
+    /* margin: 0 20px; */
+    font-size: 25px;
+    /* padding-top: 4%; */
+    transform: scale(1);
+    transition: all 0.2s;
+    align-items: center;
+    justify-content: center;
+}
+.mobileHome a:hover{
+    transform: scale(1.5);
+}
+.mobileProjects{
+    display: none;
+    width: 25%;
+}
+.mobileProjects a{
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    color: rgb(187, 187, 187);
+    height: 100%;
+    /* margin: 0 20px; */
+    font-size: 25px;
+    /* padding-top: 4%; */
+    transform: scale(1);
+    transition: all 0.2s;
+    align-items: center;
+    justify-content: center;
+}
+.mobileProjects a:hover{
+    transform: scale(1.5);
+}
 
 /******************************************************/
 /*                    Section 1                       */
@@ -92,10 +133,11 @@ section{
     width: 100%;
 }
 .content h1{
-    width: 95%;
+    width: 100%;
     margin-top: 10px;
 }
 .content p{
+    font-size: 20px;
     margin-top: 10px;
 }
 .playstore{
@@ -158,6 +200,12 @@ footer input{
     }
     .content{
         width: 400px;
+    }
+    .mobileHome{
+        display: flex;
+    }
+    .mobileProjects{
+        display: flex;
     }
 }
 @media screen and (max-width:1040px){

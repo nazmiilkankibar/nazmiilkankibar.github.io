@@ -76,6 +76,48 @@ section{
     justify-content: flex-start;
     align-content: flex-start;
 }
+.mobileHome{
+    display: none;
+    width: 25%;
+}
+.mobileHome a{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    height: 100%;
+    /* margin: 0 20px; */
+    font-size: 25px;
+    /* padding-top: 4%; */
+    transform: scale(1);
+    transition: all 0.2s;
+    align-items: center;
+    justify-content: center;
+}
+.mobileHome a:hover{
+    transform: scale(1.5);
+}
+.mobileProjects{
+    display: none;
+    width: 25%;
+}
+.mobileProjects a{
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    color: rgb(187, 187, 187);
+    height: 100%;
+    /* margin: 0 20px; */
+    font-size: 25px;
+    /* padding-top: 4%; */
+    transform: scale(1);
+    transition: all 0.2s;
+    align-items: center;
+    justify-content: center;
+}
+.mobileProjects a:hover{
+    transform: scale(1.5);
+}
 /******************************************************/
 /*                    Section 1                       */
 /******************************************************/
@@ -313,12 +355,19 @@ footer input{
 .footerBottom{
     margin-bottom: 1%;
 }
+
 @media screen and (max-width:815px) {
     /******************************************************/
     /*                    Section 1                       */
     /******************************************************/
     .links{
         display: none;
+    }
+    .mobileHome{
+        display: flex;
+    }
+    .mobileProjects{
+        display: flex;
     }
     .hello{
         flex-direction: column;
