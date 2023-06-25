@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="img/Icon.png" sizes="16x16">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <title>My Portfolio</title>
 </head>
 <body>
@@ -159,6 +160,38 @@
             </footer>
         </div>
     </div>
-    
+    <script>
+        window.sr = new ScrollReveal()
+
+        sr.reveal('.hello', {
+            delay: 100,
+            distance: "100px",
+            origin: "bottom"
+        });
+        sr.reveal('.aboutContent', {
+            delay: 250,
+            distance: "100px",
+            origin: "right",
+            duration: "1000"
+        });
+        sr.reveal('.education', {
+            delay: 250,
+            distance: "100px",
+            origin: "left",
+            duration: "1000"
+        });
+        sr.reveal('.experience', {
+            delay: 250,
+            distance: "100px",
+            origin: "right",
+            duration: "1000"
+        });
+        sr.reveal('.skills', {
+            delay: 250,
+            distance: "100px",
+            origin: "left",
+            duration: "1000"
+        });
+    </script>
 </body>
 </html>
