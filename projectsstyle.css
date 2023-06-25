@@ -114,7 +114,7 @@ section{
     margin-top: 10px;
     display: flex;
     width: 90%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -195,6 +195,21 @@ footer input{
     margin-bottom: 1%;
 }
 @media screen and (max-width:1350px){
+    .links{
+        display: none;
+    }
+    .mobileHome{
+        display: flex;
+    }
+    .mobileProjects{
+        display: flex;
+    }
+    .mobileHome a{
+        display: flex;
+    }
+    .mobileProjects a{
+        display: flex;
+    }
     section{
         justify-content: center;
     }
@@ -209,6 +224,7 @@ footer input{
     }
 }
 @media screen and (max-width:1040px){
+    
     section{
         justify-content: center;
     }
